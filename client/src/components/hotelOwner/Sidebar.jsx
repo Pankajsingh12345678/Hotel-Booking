@@ -16,7 +16,7 @@ const Sidebar = () => {
     },
     {
       name: 'List Room',
-      path: '/owner/manage-rooms',
+      path: '/owner/list-room',
       icon: assets.listIcon
     }
   ]

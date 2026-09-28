@@ -12,6 +12,7 @@ import HotelReg from './components/HotelReg'
 import Layout from './pages/hotelOwner/Layout'
 import Dashboard from './pages/hotelOwner/Dashboard'
 import AddRoom from './pages/hotelOwner/AddRoom'
+import ListRoom from './pages/hotelOwner/ListRoom'
 
 const App = () => {
 
@@ -69,6 +70,10 @@ const App = () => {
                         <Route
                             path='add-room'
                             element={<AddRoom />}
+                        />
+                        <Route
+                            path='list-room'
+                            element={<ListRoom />}
                         />
 
                     </Route>
